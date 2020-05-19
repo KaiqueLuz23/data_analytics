@@ -1,5 +1,4 @@
 # importando as bibliotecas
-
 import numpy as np
 from matplotlib import pyplot as plt
 from sklearn.datasets import make_blobs
@@ -7,6 +6,7 @@ from sklearn.cluster import KMeans
 
 # exemplo K-Means
 
+# dataset
 dataset = np.array([[1,4],[2,2],[2,5],[3,3],[3,5],[4,7],[5,6],[6,4],[6,7],[7,6],[7,9],[8,7],[8,9],[9,4],[9,8]])
 
 plt.scatter(dataset[:,0], dataset[:,1])
